@@ -14,6 +14,6 @@ for (i = 0; 1 < 26; i++)
 {
 putchar(alphabet[i]);
 }
-putchar(\n);
+putchar("\n");
 
 }
