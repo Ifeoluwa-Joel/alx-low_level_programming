@@ -14,8 +14,8 @@ int i;
 for (i = 0; i <= 7; i++)
 {
 _putchar(ch[i]);
-_putchar("\n");
 }
+_putchar('\n');
 
 return (0);
 
