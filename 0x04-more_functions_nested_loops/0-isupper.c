@@ -2,28 +2,23 @@
 #include <stdio.h>
 
 /**
-* main - check the code.
-*
-* Return: Always 0.
+* _isupper: decides if a character is upper or lowercase
+* Return: 0 if character is lower case or 1 if character is uppercase
 */
 
 
 int _isupper(int c)
 {
-if (c > 64 && c <= 90)
-return (1);
+char i;
+int isUpper = 0;
 
-else if (c > 96 && c <= 122)
-return (0);
-}
-
-int main(void)
+for (i = 'A'; i <= 'Z'; i++)
 {
-char c;
-
-c = 'A';
-printf("%c: %d\n", c, _isupper(c));
-c = 'a';
-printf("%c: %d\n", c, _isupper(c));
-return (0);
+if (i == c)
+{
+isUpper = 1;
+}
+return (isUpper);
+}
+  
 }
