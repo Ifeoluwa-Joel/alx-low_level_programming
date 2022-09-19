@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+* main - resets the value of a var by dereferencing
+* Return - Always 0 (SUCCESS)
+*
+* reset_to_98 - function to reset the value of a variable
+* Return: Always 98
+*/
+
+
+int main(void)
+{
+int n;
+n = 999;
+
+reset_to_98(int *n)
+{
+*n = 98;
+}
+
+printf("n=%d\n", n);
+reset_to_98(&n);
+printf("n=%d\n", n);
+return (0);
+}
