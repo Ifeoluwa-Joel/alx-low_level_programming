@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
-*strncat - concatenates two strings with n bytes from string 2
-*@dest: parameter one
-*@src: parametter two
-*@n:number of bytes from src
-*Return: pointer to dest
+* _strncat - concatenates two strings with n bytes from string 2
+* @dest: parameter one
+* @src: parametter two
+* @n:number of bytes from src
+* Return: pointer to dest
 */
 
 char *_strncat(char *dest, char *src, int n)
