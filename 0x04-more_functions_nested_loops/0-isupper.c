@@ -1,19 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-* _isupper - decides if a character is upper or lowercase
+* main - decides if a character is upper or lowercase
 * @c: input character
 * Return: 0 if character is lower case or 1 if character is uppercase
 */
 
-int _isupper(int c)
+int main(void)
 {
-if (c >= 65 && c <= 90)
-{
-return (1);
-}
-else if (c >= 97 && c <= 122)
-{
+char c;
+
+c = 'A';
+printf("%c: %d\n", c, _isupper(c));
+c = 'a';
+printf("%c: %d\n", c, _isupper(c));
 return (0);
-}
 }
