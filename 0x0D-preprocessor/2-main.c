@@ -2,12 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the file it was compiled from
- * @argc - main argument counter
- * @argv - main argument vector
- *
- * Return: the name of C file
- */
+* main - prints the name of the file it was compiled from
+*
+* Return: the name of C file
+*/
 
 int main(void)
 {
